@@ -1,10 +1,10 @@
 {%extends 'LICapp1/base.html'%}
 {%block first%}
 <h1>THIS IS MY FIRST PROJECT</h1>
-<form method="POST" >
-    {%csrf_token %}
-    {{form.as_p } }
-    <input type="submit" value="Submit" >
+<form action="">
+    <!-- {%csrf_token%} -->
+    {{form.as_p}}
+    <button type="submit"   class="btn btn-primary">Add</button>
 
 </form>
 {%endblock first%}    
